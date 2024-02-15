@@ -144,7 +144,10 @@ Rated: 8.3
 [Episode 12. A Real Hero\](https://drive.google.com/file/d/13Q0PJ8pLvjOFS1q5adFmw4vZfm8ucXWf/view?usp=drivesdk) 
 Rated: 8.6
 $addButton[no;fried2/$authorID;page 2;primary;no]]
-$removeButtons
+$removeComponent[fries/$authorID]
+$removeComponent[fried/$authorID]
+$removeComponent[likes/$authorID]
+
 $endif
 $endif
 $endif 
