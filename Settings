@@ -3,9 +3,10 @@ $title[Random Movie Generator]
 $description[$randomText[Jujutsu Kaisen;jujutsu kaisen 0 ;Cowboy bebop;Frieren: Beyond the Journey's end/sousou no frieren;Devilman Crybaby;Jojo's Bizzare Adventures Phantom Blood;Black Clover]] 
 $endif
 
-$elseif[$message==2]
+$if[$message==2]
 $title[Settings/config] 
 $description[Welcome to settings click for more info.]
 $addButton[no;wrap/$authorID;librarys;danger;no;]
 $addButton[no;👹/$authorID;Info;primary;no;]
 $addButton[no;🍀/$authorID;More settings;primary;yes;⚙️]
+$endif
