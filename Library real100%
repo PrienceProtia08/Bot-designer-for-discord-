@@ -38,6 +38,9 @@ $endif
 $if[$getUserVar[devil;$mentioned[1;yes]]!=]
 $addField[•;$getUserVar[devil;$mentioned[1;yes]]]
 $endif
+$if[$getUserVar[mato;$mentioned[1;yes]]!=]
+$addField[•;$getUserVar[mato;$mentioned[1;yes]]]
+$endif
 $c[=====]
 $else
 
