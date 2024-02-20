@@ -195,7 +195,7 @@ $image[$var[image]]
 $if[$var[button]==]
 $if[$checkContains[$var[series];mha;dmc;opm]==false]
 $c[add or remove the series in the checkcontains if you still haven't added the episodes or haven't finished the add to library]
-$if[$checkContains[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserVar[library];Jujutsu Kaisen;jjk;1];Cowboy Bebop;cb|kb;1];Jojo's Bizzare Adventure: Phantom Blood;jjba;1];Sousou No Frieren;snf;1];Jujutsu Kaisen 0;jjk0;1];Solo Leveling | Ore Dake Level Up Na Ken;sl;1];Black Clover: Sword of The Wizard King;bc;1];mato;mato;1];$var[series]]==false]
+$if[$checkContains[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserVar[library];Jujutsu Kaisen;jjk;1];Cowboy Bebop;cb|kb;1];Jojo's Bizzare Adventure: Phantom Blood;jjba;1];Sousou No Frieren;snf;1];Jujutsu Kaisen 0;jjk0;1];Solo Leveling | Ore Dake Level Up Na Ken;sl;1];Black Clover: Sword of The Wizard King;bc;1];mato seihei no slave;mato;1];$var[series]]==false]
 $addButton[no;$var[series]1/$authorID;Add to library;danger;no;]
 $else
 $addButton[no;$var[series]1/$authorID;Add to library;danger;yes;]
