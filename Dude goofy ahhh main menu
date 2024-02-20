@@ -163,6 +163,7 @@ When Yuuki suddenly finds himself in Mato, he is unable to escape on his own. Bu
 $var[footer;Genre: Action dark Fantasy]
 $var[image;$randomText[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxukX8TxnDQYoS2yMal-tIok5hYZt2QNTHYA&usqp=CAU;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJahVLtNMx7Wk_6MTVrFfhzP-7cXFJr_YxQ&usqp=CAU]]
 
+
 $else
 $title[**🎬 Welcome, $username**!] 
 $addField[Information;
@@ -177,10 +178,10 @@ $addField[Information;
 
 <:JJKGojoGasm:1200292753280614481> Dive into seamless, ad-free streaming of high-definition 1080p videos directly from Google Drive, courtesy of our user-friendly Discord bot.]
 $footer[Bot Ping: $ping | Bot Uptime: $uptime] 
-$newSelectMenu[library$authorID;1;1]
-$addSelectMenuOption[library$authorID;libraryreset;1;]
-$addSelectMenuOption[library$authorID;Settings;2;]
-$addSelectMenuOption[library$authorID;Random Movie;3;]
+$newSelectMenu[library/$authorID;1;1]
+$addSelectMenuOption[library/$authorID;libraryreset;1;]
+$addSelectMenuOption[library/$authorID;Settings;2;]
+$addSelectMenuOption[library/$authorID;Random Movie;3;]
 $var[button;no]
 $endif
 $c[Series]
@@ -194,7 +195,11 @@ $image[$var[image]]
 $if[$var[button]==]
 $if[$checkContains[$var[series];mha;dmc;opm]==false]
 $c[add or remove the series in the checkcontains if you still haven't added the episodes or haven't finished the add to library]
+$if[$checkContains[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserVar[library];Jujutsu Kaisen;jjk;1];Cowboy Bebop;cb|kb;1];Jojo's Bizzare Adventure: Phantom Blood;jjba;1];Sousou No Frieren;snf;1];Jujutsu Kaisen 0;jjk0;1];Solo Leveling | Ore Dake Level Up Na Ken;sl;1];Black Clover: Sword of The Wizard King;bc;mato;mato;1];$var[series]]==false]
 $addButton[no;$var[series]1/$authorID;Add to library;danger;no;]
+$else
+$addButton[no;$var[series]1/$authorID;Add to library;danger;yes;]
+$endif
 $addButton[no;$var[series]2/$authorID;Watch Now;primary;no;]
 $endif
 $addButton[no;$var[series]3/$authorID;Rating: $var[rating];secondary;yes;👁️]
