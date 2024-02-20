@@ -1,6 +1,6 @@
 $nomention
 $textSplit[$customID;/]
-$onlyIf[$checkContains[$splitText[1];jjk;cb|kb;bc;jjba;jjk0;snf;sl;dmc;omp;library;1]==true;]
+$onlyIf[$checkContains[$splitText[1];jjk;cb|kb;bc;jjba;jjk0;snf;sl;dmc;omp;library;mato;1]==true;]
 $c[MAKE SURE TO EDIT THIS ↑ EVERYTIME YOU ADD ANOTHER SERIES. AND MAKE SURE YOU ALSO ADD THE RIGHT THINGS IN THE MAIN COMMAND.]
 $onlyIf[$authorID==$splitText[2];]
 
@@ -28,6 +28,9 @@ $description[> Sucessfully added **Solo Leveling | Ore Dake Level Up Na Ken** to
 $elseif[$splitText[1]==bc1]
 $setUserVar[library;• Black Clover: Sword of The Wizard King§§§$getUserVar[library]]
 $description[> Sucessfully added **Black Clover: Sword of The Wizard King** to your library.]
+$elseif[$splitText[1]==mato]
+$setUserVar[library;• mato seihei no slave§§§$getUserVar[library]]
+$description[> Sucessfully added **mato seihei no slave** to your library.]
 $endif
 $c[ADD TO LIBRARY BUTTON]
 $c[ADD TO LIBRARY BUTTON]
@@ -42,7 +45,7 @@ $c[settings]
 $description[> Nothing here yet.]
 $elseif[$message==3]
 $title[Random Movie Generator] 
-$description[> Movie/Series: $randomText[$optOff[$randomText[Jujutsu Kaisen;jujutsu kaisen 0;Cowboy bebop;Frieren: Beyond the Journey's end/Sousou No Frieren;Devilman Crybaby;Jojo's Bizzare Adventures: Phantom Blood;Black Clover]];$optOff[$randomText[Jujutsu Kaisen;jujutsu kaisen 0;Cowboy bebop;Frieren: Beyond the Journey's end/Sousou No Frieren;Devilman Crybaby;Jojo's Bizzare Adventures Phantom Blood;Black Clover]];$optOff[$randomText[Jujutsu Kaisen;jujutsu kaisen 0;Cowboy bebop;Frieren: Beyond the Journey's end/Sousou No Frieren;Devilman Crybaby;Jojo's Bizzare Adventures Phantom Blood;Black Clover]]]] 
+$description[> Movie/Series: $randomText[$optOff[$randomText[Jujutsu Kaisen;mato seihei no slave;jujutsu kaisen 0;Cowboy bebop;Frieren: Beyond the Journey's end/Sousou No Frieren;Devilman Crybaby;Jojo's Bizzare Adventures: Phantom Blood;Black Clover]];$optOff[$randomText[Jujutsu Kaisen;jujutsu kaisen 0;Cowboy bebop;Frieren: Beyond the Journey's end/Sousou No Frieren;Devilman Crybaby;Jojo's Bizzare Adventures Phantom Blood;Black Clover]];$optOff[$randomText[Jujutsu Kaisen;jujutsu kaisen 0;Cowboy bebop;Frieren: Beyond the Journey's end/Sousou No Frieren;Devilman Crybaby;Jojo's Bizzare Adventures Phantom Blood;Black Clover]]]] 
 $endif
 $c[MENU]
 $c[MENU]
