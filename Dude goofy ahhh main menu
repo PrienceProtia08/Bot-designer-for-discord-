@@ -144,6 +144,24 @@ $var[title;MHA My censord Lil bro]
 $var[description;MHA is a censored anime with a bad rating blah blah blah censored] 
 $var[footer;Genre:]
 $var[image;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT18Ux_bZAeFAbdp1kYxRn4WVbQWMiiNMLpzA&usqp=CAU]
+$elseif[$checkContains[$toLowercase[$var[msg]];mato;mato seihei no slave;soldiers]==true]
+$c[=====mato seihei no slave=====]
+$c[=====mato seihei no slave=====]
+$var[series;mato]
+$var[rating;$getUserVar[views8]]
+$var[title;mato seihei no slave]
+$var[description;After his high school graduation, Yuuki Wakura realizes it has been five years since his sister's disappearance during a "Mato disaster." Throughout Japan, mysterious entrances have opened to a dimension called "Mato"—a demonic metropolis filled with disastrous monsters known as the "Shuuki" that threaten the safety of humans. However, a new hope arose, as the discovery of a Mato fruit that grants supernatural abilities exclusively to women allowed them to fight against the Shuuki. Due to this, a new matriarchal government was formed, establishing a female organization called the Anti-Demon Corps, which caused men to fall to the bottom of society.
+
+When Yuuki suddenly finds himself in Mato, he is unable to escape on his own. But just as he anticipates a gruesome end by the Shuuki, a girl in a militia outfit appears and protects him. As the chief of the Seventh Unit of the Anti-Demon Corps, Kyouka Uzen is ambitious yet devalued by her own peers due to her power being deemed unusual. Now in a life-or-death situation, Kyouka takes the opportunity to find out the true potential of her superpower by using Yuuki: in order to defeat the Shuuki, he has to become her slave.
+
+- **Studio:** 
+- **Aired:** 
+- **Episodes:** 
+- **Complete:** 
+- **Series:** 
+- **Main Character:**  
+$var[footer;Genre: Action dark Fantasy]
+$var[image;$randomText[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxukX8TxnDQYoS2yMal-tIok5hYZt2QNTHYA&usqp=CAU;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJahVLtNMx7Wk_6MTVrFfhzP-7cXFJr_YxQ&usqp=CAU]]
 
 $else
 $title[**🎬 Welcome, $username**!] 
