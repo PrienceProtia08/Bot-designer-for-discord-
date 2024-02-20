@@ -28,7 +28,7 @@ $description[> Sucessfully added **Solo Leveling | Ore Dake Level Up Na Ken** to
 $elseif[$splitText[1]==bc1]
 $setUserVar[library;• Black Clover: Sword of The Wizard King§§§$getUserVar[library]]
 $description[> Sucessfully added **Black Clover: Sword of The Wizard King** to your library.]
-$elseif[$splitText[1]==mato]
+$elseif[$splitText[1]==mato1]
 $setUserVar[library;• mato seihei no slave§§§$getUserVar[library]]
 $description[> Sucessfully added **mato seihei no slave** to your library.]
 $endif
