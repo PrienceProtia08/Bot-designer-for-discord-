@@ -2,6 +2,7 @@ $nomention
 $onlyIf[$or[$toLowercase[$message[1]]==movie;$toLowercase[$message[1]]==mov]==true;]
 $onlyIf[$guildID!=;]
 $var[msg;$replaceText[$message;$message[1];;1]]
+$defer
 
 $c[Series]
 $if[$or[$toLowercase[$var[msg]]==jjk;$toLowercase[$var[msg]]==jujutsu kaisen]==true]
