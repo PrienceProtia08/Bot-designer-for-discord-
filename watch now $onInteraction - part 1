@@ -15,7 +15,7 @@ $description[
 > Yuuki Wakura wanders through a gate to an alternate dimension. He meets the Demon Defense Force including Chief Kyouka Uzen, who will reward him for his servitude.
 Rated: 7.3]
 
-$if[$splitText[1]==jjk2]
+$elseif[$splitText[1]==jjk2]
 $title[Jujutsu Kaisen]
 $description[
 - [Episode 1. Ryomen Sakuna\](https://drive.google.com/file/d/1--qXdlXsxiHPnWKZyctts_O6PKVh6tWe/view?usp=drivesdk)
