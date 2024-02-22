@@ -5,6 +5,7 @@ $textSplit[$customID;/]
 $onlyIf[$checkContains[$splitText[1];jjkpage2;snfpage2]==true;]
 $c[MAKE SURE TO EDIT THIS ↑ EVERYTIME YOU ADD ANOTHER SERIES. AND MAKE SURE YOU ALSO ADD THE RIGHT THINGS IN THE OTHER INTERACTION PART.]
 $onlyIf[$authorID==$splitText[2];]
+$defer
 
 $color[$random[0;16777215]]
 $if[$splitText[1]==jjkpage2]
