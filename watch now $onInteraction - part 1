@@ -1,4 +1,4 @@
-### _**Command 1: $onInteraction**_
+
 $nomention
 $textSplit[$customID;/]
 $onlyIf[$checkContains[$splitText[1];jjk;cb|kb;bc;jjba;jjk0;snf;sl;dmc;omp]==true;]
